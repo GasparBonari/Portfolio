@@ -1004,52 +1004,7 @@ ul.social-buttons li:last-child {
 .contact-wrap {
 	position:relative;
 }
-#googlemaps {
-	width:100%;
-	height:300px;
-	left:15px;
-	bottom:25px;
-}
-.contact {
-	margin-top:-20px!important;
-}
-.contact label {
-	float:left;
-}
-.contact .form-control {
-	margin-bottom:20px;
-	border:1px solid #cbcbcb;
-	height:45px;
-}
-.contact textarea.form-control {
-	height: 310px;
-}
 
-/* Inputs styles */
-.contact .form-control {
-	border-radius:0!important;
-	;
-	-webkit-box-shadow:none;
-	box-shadow:none;
-}
-.contact .form-control:focus {
-	-webkit-box-shadow:none;
-	box-shadow:none;
-	border:1px solid #B0B0B0;
-}
-
-.btn-send{
-	background:#E04343;
-	color: white;
-	transition: all 0.4s;
-	border-radius: 0;
-	float: right;
-}
-
-.btn-send:hover{
-	background: #FFE800;
-	color: #E04343
-}
 
 button,button:focus,button:hover,button:active {
 	outline: none!important;
@@ -1146,118 +1101,84 @@ ul.slides li {
 	height: 100%;
 }
 /* ==========================================================================Responsive========================================================================== */
-/* 320px (iPhone) */
-@media screen and (max-width:414px) {
-	.scrollto {
-		padding: 95px 0px 0px 0px;
+
+@media only screen and (max-width:480px){
+
+	#preloader{
+		width:80%;
+		height:100%;
+	}
+
+	.pic-hero{
+		height: 7cm;
+		left: 2cm;
+		top: 1cm;
 	}
 
 	.hero h1 {
-		font-size: 100px;
-		line-height: 80px;
-		margin-top: 65px;
-    }
-}
-/* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
-	.wrapper {
-		background:#f3f5f8;
-		height:640px;
+		margin: 3.5cm;
+		font-size: 80px;
+		margin-top: 2cm;
 	}
-	.iphone {
-		display:none;
-	}
-	.fluid-white {
-		display:none;
-	}
-	.wp2,.wp4,.wp5,.light-box {
-		margin-bottom: 30px;
-	}
-}
-/* xGA iPad */
-@media screen and (max-width:1024px) {
-	.wp3 {
-		background-position:50px 0;
-	}
-	.swag {
-		background-attachment:scroll;
-	}
-}
-/* 1200px (Small Desktop,Netbook) */
-@media screen and (max-width:1280px) {
-	.wp3 {
-		background-position: 50px 0;
-	}
-}
-/* Bootstrap 990px Breakpoint to 480px */
-@media screen and (min-width:480px) and (max-width:991px) {
-	.iphone {
-		display:none;
-	}
-	.fluid-white {
-		display:none;
-	}
-	.wrapper {
-		background:#f3f5f8;
-		height:540px;
-	}
-	.wp2,.wp4,.wp5,.light-box {
-		margin-bottom:30px;
-	}
-}
-@media screen and (max-width:50em) {
-	.icon-list a {
-		padding:0.5em 0em;
-		margin:0 5px;
-		font-size:1em;
-	}
-}
-
-
-
-
-
-
-
-/** Responsive fixes **/
-@media screen and (max-width:767px) {
-	.inner {
-    padding-top: 10px;
-    text-align: center;
-	}
-
 	.hero h3 {
-	    letter-spacing: 10px;
+		font-size: 27px;
+		opacity:0.5;
+		color: #E04343;
+		letter-spacing: 5px;
+		line-height: 50px;
+		text-transform: uppercase;
+		margin-left: 6cm;
+		margin-top: -3.5cm;
 	}
 
-
-	.hero {
-	    padding-bottom: 0;
+	.scrollto {
+		padding: 30px 0px 0px 0px;
+		display:block;
+		text-decoration: none;
+		width:100px;
+		margin-left: 65%;
+		border-bottom: none;
 	}
 
-	.btn-send {
-	    float: none;
+	.bg{
+        display: none;
+	}
+
+	.box-s{
+		width: 350px;
+		padding: 70px;
+		margin-top: 1.5cm;
+	}
+
+	.s1{
+		font-size: 40px;
+		font-weight: 600;
+		background-image: linear-gradient(to left, #9988d9, #511f83);
+		color: transparent;
+		background-clip: text;
+		-webkit-background-clip: text;
 	
-	    margin-bottom: 80px;
-	}
-	.effects .img {
-    	margin-bottom: 15px;
-	}
-	.show-menu .icon-list a {
-		display: block;
-		width: 100%;
-		float: left;
-		margin-bottom: 10px;
+		font-family: 'Bookerly', sans-serif;
+		letter-spacing: -1px; 
+		line-height: 1; 
 	}
 
-	.show-menu .menu-wrap {
-		height: 100%;
+	h3{
+		font-size: 40px;
+		margin-top: -0.5cm;
+		font-family: 'Bookerly', sans-serif;
+		color: #000000;
 	}
-}
 
-
-@media screen and (max-width:991px) {
-	.hero {
-    	padding: 0px;
+	h4{
+		font-size: 32px;
+		margin-top: -1cm;
+		margin-left: -1.1cm;
 	}
+
+	.dark-box{
+		padding: 23px;
+		margin-left: -3cm;
+	}
+
 }
