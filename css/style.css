@@ -1175,5 +1175,22 @@ ul.slides li {
 		margin-top: -1cm;
 		margin-left: -1.1cm;
 	}
+	
+	.show-menu .icon-list a {
+		display: block;
+		width: 50%;
+		float: left;
+		margin-bottom: 10px;
+		
+	}
 
+	.show-menu .menu-wrap {
+		height: 30%;
+	}
+
+	.dark-box {
+	padding:20px 0;
+	width: 8cm;
+	margin-left: -0.5cm;
+	}
 }
