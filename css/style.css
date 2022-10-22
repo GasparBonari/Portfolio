@@ -1193,6 +1193,14 @@ ul.slides li {
 	width: 8cm;
 	margin-left: -0.5cm;
 	}
+
+	html, body{
+		overflow-x: hidden;
+	}
+	
+	body{
+		position: relative
+	}
 }
 
 @media only screen and (max-width:360px)
@@ -1220,5 +1228,13 @@ ul.slides li {
 
 	.dark-box {
 		margin-left: -1cm;
+	}
+	
+	html, body{
+		overflow-x: hidden;
+	}
+	
+	body{
+		position: relative
 	}
 }
