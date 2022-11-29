@@ -76,11 +76,20 @@ let btnSlideRight = document.querySelector(".slider__btn--right");
 let currentSlide = 0;
 let maxSlide = slides.length;
 
+let mediaQuery = window.matchMedia("(max-width:480px)");
+
 function goToSlide(slide)
 {
 	slides.forEach((e, i) => 
 	{
-		e.style.transform = `translateX(${50 * (i - slide)}%)`;
+    if(mediaQuery.matches)
+    {
+      e.style.transform = `translateX(${170 * (i - slide)}%)`;
+    }
+    else
+    {
+      e.style.transform = `translateX(${50 * (i - slide)}%)`;
+    }
 	})
 }
 
