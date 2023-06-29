@@ -17,10 +17,6 @@
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
-
-
-
-
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
@@ -713,7 +709,7 @@ h4{
 
 @keyframes typewriter{
 	from{width: 0em;}
-	to{width: 9.1em;}
+	to{width: 9em;}
 }
 
 @keyframes blinkTextCursor{
